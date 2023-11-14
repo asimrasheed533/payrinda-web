@@ -119,7 +119,7 @@ export default function Index() {
           </svg>
         </div>
       </div>
-      <div className="Merchants__card__continer">
+      {/* <div className="Merchants__card__continer">
         <MerchantsCard
           heading="For Merchants:"
           subheading="Wave goodbye to the cumbersome payment methods of the past! payrinda empowers merchants with swift, secure, and seamless transactions. Our cutting-edge platform not only accelerates checkout flows but also unveils insightful data analytics, helping you understand your customers like never before."
@@ -140,6 +140,22 @@ export default function Index() {
           subheading="At payrinda, we believe in the power of technology to drive significant change. Our commitment to continuous innovation sees us at the forefront of the financial services industry, constantly exploring and developing new ways to make your payment experiences faster, easier, and safer."
           image={mer04}
         />
+      </div> */}
+      <div className="join__card__container">
+        <div className="join__card__container__text__wraper">
+          <div className="join__card__container__text__heading">
+            Join the Payment Revolution
+          </div>
+          <div className="join__card__container__text__overlay__heading">
+            Ready to elevate your payment experience?{" "}
+          </div>
+          <div className="join__card__container__text__subheading">
+            Ready To Get Started with ?
+          </div>
+          <div className="join__container__btn">
+            <button className="join__container__btn__button">Let's Talk</button>
+          </div>
+        </div>
       </div>
     </>
   );

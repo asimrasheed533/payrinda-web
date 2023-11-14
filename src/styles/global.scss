@@ -114,7 +114,7 @@ body {
   max-width: 1300px;
   margin: 0 auto;
   padding: 1em 2em;
-  border-radius: 39px;
+  border-radius: 20px;
   border: 0.5px solid rgba(67, 66, 66, 0.4);
 
   background: linear-gradient(
@@ -198,6 +198,73 @@ body {
   object-fit: cover;
   object-position: right;
 }
+.join__card__container {
+  background-image: url(../assets/join__img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  border-radius: 12px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.join__card__container__text__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em 0em;
+  color: white;
+}
+.join__card__container__text__heading {
+  font-size: 38px;
+  font-weight: 800;
+  color: $color;
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 1em;
+}
+.join__card__container__text__overlay__heading {
+  font-size: 14px;
+  color: #cdcdcd;
+  margin: 1em 0em;
+}
+.join__card__container__text__subheading {
+  font-size: 26px;
+  font-weight: 800;
+}
+.join__container__btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6em;
+}
+.join__container__btn__button {
+  width: 200px;
+
+  background: #ffffff;
+  border-radius: 60px;
+  padding: 1em 2em;
+  color: $color;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  border: 1px solid $color;
+}
+.join__container__btn__button:hover {
+  background: $color;
+  color: white;
+  transition: 300ms ease-in-out;
+  border: 1px solid white;
+}
 @media (max-width: 1250px) {
   .welcome__main__container__content__heading {
     width: 80%;
@@ -216,6 +283,21 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .join__card__container__text__heading {
+    font-size: 22px;
+  }
+  .join__card__container__text__subheading {
+    font-size: 20px;
+  }
+  .Merchants__card__wraper {
+    width: 100%;
+  }
+  .Merchants__card__wraper__col__heading {
+    font-size: 20px;
+  }
+  .Merchants__card__wraper__col__subheading {
+    font-size: 14px;
+  }
   .welcome__main__container__content__heading {
     font-size: 22px;
     line-height: 30px;
