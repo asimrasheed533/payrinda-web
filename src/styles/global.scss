@@ -356,6 +356,13 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .Merchants__card__wraper__col:last-child {
+    align-items: end;
+    padding: 0em;
+  }
+  .Merchants__card__wraper__col__img {
+    max-width: 170px;
+  }
   .solution__main__wraper__text {
     font-size: 22px;
   }
@@ -370,6 +377,7 @@ body {
   }
   .Merchants__card__wraper {
     width: 100%;
+    margin: 1em;
   }
   .Merchants__card__wraper__col__heading {
     font-size: 20px;
