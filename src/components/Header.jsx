@@ -57,6 +57,9 @@ export default function Header() {
               <NavLink className="header__nav__container__menu__links">
                 About us
               </NavLink>
+              <NavLink className=" header__nav__container__menu__links__btn__mobile">
+                Contact Us
+              </NavLink>
             </div>
           ) : null}
           <NavLink className="header__nav__container__menu__links__btn">
