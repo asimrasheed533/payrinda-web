@@ -320,7 +320,75 @@ body {
   object-fit: cover;
   padding: 2em;
 }
+.Automatic__card__container__col:nth-child(2) {
+  margin-top: 6em;
+  // position: absolute;
+}
+.Automatic__card__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  padding: 1em;
+}
+.Automatic__card__container__col {
+  width: 28%;
+  // background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Automatic__col__card__wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 245.534px;
+  background: #fff;
+  max-width: 270px;
+  padding: 3em 1em;
+  box-shadow: 0px 6px 36px 0px rgba(0, 0, 0, 0.14);
+  margin-bottom: 1em;
+}
+.Automatic__col__card__wraper__heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.5em 0em;
+  text-align: center;
+}
+.Automatic__col__card__wraper__subheading {
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  color: #434242;
+  padding: 0.5em;
+  margin-bottom: 3em;
+}
+.Automatic__col__card__wraper__svg {
+  padding: 1em 0em;
+}
+.Automatic__col__card__wraper__svg svg {
+  width: 100px;
+  height: 100px;
+}
+.Automatic__card__container__col__text {
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  color: #434242;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
 @media (max-width: 1250px) {
+  .Automatic__card__container {
+    justify-content: space-between;
+  }
   .welcome__main__container__content__heading {
     width: 80%;
   }
@@ -329,6 +397,16 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .Automatic__card__container__col {
+    min-width: 300px;
+  }
+  .Automatic__card__container__col:nth-child(2) {
+    margin-top: 0em;
+  }
+
+  .Automatic__card__container__col {
+    width: 40%;
+  }
   .solution__main__container__wraper {
     flex-direction: column-reverse;
   }
@@ -356,6 +434,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .Automatic__card__container__col {
+    width: 100%;
+  }
   .Merchants__card__wraper__col:last-child {
     align-items: end;
     padding: 0em;
