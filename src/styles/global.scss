@@ -10,3 +10,25 @@ body {
   padding: 0;
   font-size: 16px;
 }
+.welcome__main__container__overlay__bg {
+  background-color: rgba(1, 43, 132, 0.17);
+  height: 300px;
+  width: 300px;
+  border-radius: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.2;
+  // animation: rotate 10s linear infinite;
+  // background shadow
+  box-shadow: 0 0 20px 20px rgba(1, 43, 132, 0.2);
+}
+.welcome__main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10em;
+}
