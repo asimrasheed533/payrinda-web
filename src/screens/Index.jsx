@@ -4,6 +4,7 @@ import mer01 from "../assets/mer01.png";
 import mer02 from "../assets/mer02.png";
 import mer03 from "../assets/mer03.png";
 import mer04 from "../assets/mer04.png";
+import solution__img from "../assets/solution__img.png";
 export default function Index() {
   return (
     <>
@@ -119,7 +120,7 @@ export default function Index() {
           </svg>
         </div>
       </div>
-      {/* <div className="Merchants__card__continer">
+      <div className="Merchants__card__continer">
         <MerchantsCard
           heading="For Merchants:"
           subheading="Wave goodbye to the cumbersome payment methods of the past! payrinda empowers merchants with swift, secure, and seamless transactions. Our cutting-edge platform not only accelerates checkout flows but also unveils insightful data analytics, helping you understand your customers like never before."
@@ -140,7 +141,7 @@ export default function Index() {
           subheading="At payrinda, we believe in the power of technology to drive significant change. Our commitment to continuous innovation sees us at the forefront of the financial services industry, constantly exploring and developing new ways to make your payment experiences faster, easier, and safer."
           image={mer04}
         />
-      </div> */}
+      </div>
       <div className="join__card__container">
         <div className="join__card__container__text__wraper">
           <div className="join__card__container__text__heading">
@@ -154,6 +155,40 @@ export default function Index() {
           </div>
           <div className="join__container__btn">
             <button className="join__container__btn__button">Let's Talk</button>
+          </div>
+        </div>
+      </div>
+      <div className="solution__main__container">
+        <div className="solution__main__container__heading">Our Solutions</div>
+        <div className="solution__main__container__wraper">
+          <div className="solution__main__wraper__col">
+            <div className="solution__main__wraper__text">Digital Tipping </div>
+            <div className="solution__main__wraper__subtext">
+              In A Cashless Era
+            </div>
+            <div className="solution__main__wraper__detail">
+              As our world rapidly transitions to cashless economies, the way we
+              appreciate and reward services is also evolving. Digital tipping
+              emerges as a revolutionary solution in this context, bridging the
+              gap between traditional gratuity practices and modern payment
+              systems. No longer do customers have to fumble for change or feel
+              the constraint of not having physical cash to reward exemplary
+              service. With a simple tap or scan, gratuities can be seamlessly
+              transferred, ensuring that those in the service industry continue
+              to receive their well-deserved tips. This shift not only offers
+              convenience but also promotes a safer, more hygienic method of
+              transaction in an increasingly digital age. Embracing digital
+              tipping is more than just adopting a new payment method; it's
+              about progressing with the times and ensuring that appreciation
+              doesn't get lost in the digital shuffle.
+            </div>
+          </div>
+          <div className="solution__main__wraper__col">
+            <img
+              className="solution__main__wraper__col__img"
+              src={solution__img}
+              alt="solution"
+            />
           </div>
         </div>
       </div>

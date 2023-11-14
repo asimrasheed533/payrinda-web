@@ -265,12 +265,85 @@ body {
   transition: 300ms ease-in-out;
   border: 1px solid white;
 }
+.solution__main__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 1em;
+}
+.solution__main__container__heading {
+  font-size: 42px;
+  font-weight: 800;
+  color: $color;
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+.solution__main__container__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.solution__main__wraper__col:last-child {
+  align-items: flex-end;
+}
+.solution__main__wraper__col {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.solution__main__wraper__text {
+  font-size: 30px;
+  font-weight: bold;
+  color: $color;
+}
+.solution__main__wraper__subtext {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0.4em 0em;
+}
+.solution__main__wraper__detail {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  padding-right: 1em;
+}
+.solution__main__wraper__col__img {
+  width: 100%;
+  // max-width: 400px;
+  object-fit: cover;
+  padding: 2em;
+}
 @media (max-width: 1250px) {
   .welcome__main__container__content__heading {
     width: 80%;
   }
+  .solution__main__wraper__col__img {
+    padding: 0em;
+  }
 }
 @media (max-width: 900px) {
+  .solution__main__container__wraper {
+    flex-direction: column-reverse;
+  }
+  .solution__main__wraper__col__img {
+    max-width: 600px;
+    margin: 1em 0em;
+  }
+  .solution__main__wraper__text {
+    margin-top: 1em;
+  }
+  .solution__main__container__heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1em;
+  }
   .welcome__main__container__content__heading {
     width: 100%;
     font-size: 30px;
@@ -283,6 +356,12 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .solution__main__wraper__text {
+    font-size: 22px;
+  }
+  .solution__main__wraper__subtext {
+    font-size: 22px;
+  }
   .join__card__container__text__heading {
     font-size: 22px;
   }
