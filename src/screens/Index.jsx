@@ -14,7 +14,7 @@ import { PngQrmobile } from "@assets";
 export default function Index() {
   return (
     <>
-      <div className="welcome__main__container">
+      <div id="header" className="welcome__main__container">
         <div className="welcome__main__container__overlay__bg">
           <svg
             width="1134"
@@ -183,7 +183,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="solution__main__container">
+      <div id="solution" className="solution__main__container">
         <Fade bottom duration={2000}>
           <div className="solution__main__container__heading">
             Our Solutions
@@ -249,7 +249,7 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div className="Automatic__card__container">
+      <div id="work" className="Automatic__card__container">
         <div className="Automatic__card__container__col">
           <AutomaticCard
             svg={
@@ -609,7 +609,7 @@ export default function Index() {
           </Fade>
         </div>
       </div>
-      <div className="about__main__containe__overlay">
+      <div id="about" className="about__main__containe__overlay">
         <div className="about__main__wraper">
           <Fade bottom>
             <div className="about__main__wraper__heading">About Us</div>
