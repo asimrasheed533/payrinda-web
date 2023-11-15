@@ -464,6 +464,20 @@ body {
   margin-top: 1em;
   text-align: center;
 }
+.auto__under__text__over {
+  background: rgba(1, 43, 132, 0.15);
+  width: 100%;
+  margin: 1em 0em;
+}
+.auto__under__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 1em;
+}
 @media (max-width: 1250px) {
   .Automatic__card__container {
     justify-content: space-between;
