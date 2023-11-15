@@ -1,4 +1,4 @@
-import { AutomaticCard, MerchantsCard } from "@components";
+import { AutomaticCard, MerchantsCard, BenefitCard } from "@components";
 
 import main__img from "../assets/main__img.png";
 import mer01 from "../assets/mer01.png";
@@ -437,6 +437,81 @@ export default function Index() {
         <div className="auto__under__text">
           We love to keep building new innovative products, more solutions
           coming your way soon….
+        </div>
+      </div>
+      <div className="benefits__contaniner__over">
+        <div className="benefits__contaniner__over__svg">
+          <svg
+            width="947"
+            height="1941"
+            viewBox="0 0 947 1941"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_f_201_598)">
+              <ellipse
+                cx="90.3223"
+                cy="970.507"
+                rx="356"
+                ry="470.16"
+                fill="#012B84"
+                fill-opacity="0.12"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_201_598"
+                x="-765.678"
+                y="0.347656"
+                width="1712"
+                height="1940.32"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="250"
+                  result="effect1_foregroundBlur_201_598"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div className="benefits__contaniner__main">
+          <div className="benefits__contaniner__main__left">
+            Benefits of <span>Payrinda’s</span> Digital <span>Tipping</span>{" "}
+            Solution
+          </div>
+          <div className="benefits__contaniner__main__right">
+            With their usual salaries via your payroll mechanism. Whichever
+            approach you take, the digital tipping system streamlines the
+            disbursement procedure and allows you to keep track of your staff
+            tips earnings.
+          </div>
+        </div>
+        <div className="benefits__cards__container__wrparper">
+          <BenefitCard
+            number="01"
+            text="Enhances employee motivation and engagement."
+          />
+          <BenefitCard
+            number="02"
+            text="Employees want equitable compensation, and with fewer guests carrying cash these days, there's been a noticeable decline in tip earnings. By offering guests an option for cashless gratuities, staff are further encouraged to deliver outstanding service, recognizing the potential rewards for their efforts."
+          />
+          <BenefitCard
+            number="03"
+            text="Guests often skip tipping service industry staff not due to unsatisfactory service, but because they lack cash. Our digital tipping platform provides guests the opportunity to express their gratitude to service staff using diverse digital payment methods, such as ApplePay and Google Pay."
+          />
+          <BenefitCard
+            number="04"
+            text="For service industry merchants, depending on how your payroll is structured, you might choose to transfer tips straight into employees' bank accounts or merge them."
+          />
         </div>
       </div>
     </>
