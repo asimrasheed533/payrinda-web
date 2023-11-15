@@ -432,6 +432,12 @@ export default function Index() {
           />
         </div>
       </div>
+      <div className="auto__under__text__over">
+        <div className="auto__under__text">
+          We love to keep building new innovative products, more solutions
+          coming your way soon….
+        </div>
+      </div>
     </>
   );
 }
