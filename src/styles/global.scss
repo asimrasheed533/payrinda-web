@@ -106,6 +106,13 @@ body {
   padding: 1em;
   // object-position: center;
 }
+.welcome__detail__sub__text__container__over {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
 .welcome__detail__sub__text__container {
   width: 100%;
   display: flex;
@@ -147,6 +154,13 @@ body {
   text-align: center;
   font-size: 18px;
   line-height: 22px;
+}
+.Merchants__card__continer__over {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
 }
 .Merchants__card__continer {
   width: 100%;
@@ -198,14 +212,22 @@ body {
   object-fit: cover;
   object-position: right;
 }
+.join__card__container__over {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 1em;
+}
 .join__card__container {
   background-image: url(../assets/join__img.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
+
   border-radius: 12px;
   margin-top: 3em;
   margin-bottom: 3em;
@@ -273,7 +295,7 @@ body {
   flex-direction: column;
   max-width: 1366px;
   margin: 0 auto;
-  padding: 1em;
+  padding: 2em 1em;
 }
 .solution__main__container__heading {
   font-size: 42px;
@@ -454,17 +476,30 @@ body {
     font-size: 22px;
   }
   .join__card__container__text__subheading {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .join__card__container__text__overlay__heading {
+    font-size: 12px;
   }
   .Merchants__card__wraper {
     width: 100%;
-    margin: 1em;
+    min-width: auto;
+    flex-direction: column-reverse;
   }
   .Merchants__card__wraper__col__heading {
     font-size: 20px;
   }
   .Merchants__card__wraper__col__subheading {
     font-size: 14px;
+  }
+  .Merchants__card__wraper__col__img {
+    transform: rotate(180deg);
+  }
+  .Merchants__card__wraper__col {
+    padding-left: 1em;
+  }
+  .solution__main__wraper__detail {
+    padding-right: 0em;
   }
   .welcome__main__container__content__heading {
     font-size: 22px;
@@ -481,6 +516,7 @@ body {
     margin: 1em 0em;
   }
   .welcome__detail__sub__text__container__text__wraper {
-    text-align: justify;
+    text-align: center;
+    font-size: 16px;
   }
 }

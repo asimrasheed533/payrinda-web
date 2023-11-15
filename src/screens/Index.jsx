@@ -67,16 +67,19 @@ export default function Index() {
         <div className="welcome__main__container__img">
           <img src={main__img} alt="image" />
         </div>
-        <div className="welcome__detail__sub__text__container">
-          <div className="welcome__detail__cir"></div>
-          <div className="welcome__detail__sub__text__container__text__wraper">
-            Where innovation meets convenience in the financial services realm.
-            As a burgeoning technology startup, our mission extends beyond mere
-            transaction processing. We're here to redefine the payment
-            landscape, fostering unparalleled ease and reliability for
-            merchants, consumers, and businesses alike.
+        <div className="welcome__detail__sub__text__container__over">
+          <div className="welcome__detail__sub__text__container">
+            <div className="welcome__detail__cir"></div>
+            <div className="welcome__detail__sub__text__container__text__wraper">
+              Where innovation meets convenience in the financial services
+              realm. As a burgeoning technology startup, our mission extends
+              beyond mere transaction processing. We're here to redefine the
+              payment landscape, fostering unparalleled ease and reliability for
+              merchants, consumers, and businesses alike.
+            </div>
           </div>
         </div>
+
         <div className="welcome__main__container__overlay__bottom">
           <svg
             width="1134"
@@ -121,44 +124,52 @@ export default function Index() {
           </svg>
         </div>
       </div>
-      <div className="Merchants__card__continer">
-        <MerchantsCard
-          heading="For Merchants:"
-          subheading="Wave goodbye to the cumbersome payment methods of the past! payrinda empowers merchants with swift, secure, and seamless transactions. Our cutting-edge platform not only accelerates checkout flows but also unveils insightful data analytics, helping you understand your customers like never before."
-          image={mer01}
-        />
-        <MerchantsCard
-          heading="For Consumers:"
-          subheading="Say hello to frictionless spending! No more tedious wait times, no more complex checkout processes. With payrinda, experience the freedom of instant, hassle-free payments. Whether online or offline, count on us to keep your financial data secure, giving you the peace of mind to enjoy what matters most - the things you love."
-          image={mer02}
-        />
-        <MerchantsCard
-          heading="For Businesses:"
-          subheading="Transform the way you handle finances with payrinda’s innovative solutions. From streamlined invoicing to effortless payroll and beyond, we equip businesses with the tools to manage transactions efficiently. Dive into a world of possibilities with comprehensive payment solutions tailored to your business needs."
-          image={mer03}
-        />
-        <MerchantsCard
-          heading="Innovation at the Core:"
-          subheading="At payrinda, we believe in the power of technology to drive significant change. Our commitment to continuous innovation sees us at the forefront of the financial services industry, constantly exploring and developing new ways to make your payment experiences faster, easier, and safer."
-          image={mer04}
-        />
+      <div className="Merchants__card__continer__over">
+        <div className="Merchants__card__continer">
+          <MerchantsCard
+            heading="For Merchants:"
+            subheading="Wave goodbye to the cumbersome payment methods of the past! payrinda empowers merchants with swift, secure, and seamless transactions. Our cutting-edge platform not only accelerates checkout flows but also unveils insightful data analytics, helping you understand your customers like never before."
+            image={mer01}
+          />
+          <MerchantsCard
+            heading="For Consumers:"
+            subheading="Say hello to frictionless spending! No more tedious wait times, no more complex checkout processes. With payrinda, experience the freedom of instant, hassle-free payments. Whether online or offline, count on us to keep your financial data secure, giving you the peace of mind to enjoy what matters most - the things you love."
+            image={mer02}
+          />
+          <MerchantsCard
+            heading="For Businesses:"
+            subheading="Transform the way you handle finances with payrinda’s innovative solutions. From streamlined invoicing to effortless payroll and beyond, we equip businesses with the tools to manage transactions efficiently. Dive into a world of possibilities with comprehensive payment solutions tailored to your business needs."
+            image={mer03}
+          />
+          <MerchantsCard
+            heading="Innovation at the Core:"
+            subheading="At payrinda, we believe in the power of technology to drive significant change. Our commitment to continuous innovation sees us at the forefront of the financial services industry, constantly exploring and developing new ways to make your payment experiences faster, easier, and safer."
+            image={mer04}
+          />
+        </div>
       </div>
-      <div className="join__card__container">
-        <div className="join__card__container__text__wraper">
-          <div className="join__card__container__text__heading">
-            Join the Payment Revolution
-          </div>
-          <div className="join__card__container__text__overlay__heading">
-            Ready to elevate your payment experience?{" "}
-          </div>
-          <div className="join__card__container__text__subheading">
-            Ready To Get Started with ?
-          </div>
-          <div className="join__container__btn">
-            <button className="join__container__btn__button">Let's Talk</button>
+
+      <div className="join__card__container__over">
+        <div className="join__card__container">
+          <div className="join__card__container__text__wraper">
+            <div className="join__card__container__text__heading">
+              Join the Payment Revolution
+            </div>
+            <div className="join__card__container__text__overlay__heading">
+              Ready to elevate your payment experience?{" "}
+            </div>
+            <div className="join__card__container__text__subheading">
+              Ready To Get Started with ?
+            </div>
+            <div className="join__container__btn">
+              <button className="join__container__btn__button">
+                Let's Talk
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
       <div className="solution__main__container">
         <div className="solution__main__container__heading">Our Solutions</div>
         <div className="solution__main__container__wraper">
@@ -193,7 +204,7 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div className="Automatic__card__container">
+      {/* <div className="Automatic__card__container">
         <div className="Automatic__card__container__col">
           <AutomaticCard
             svg={
@@ -395,7 +406,7 @@ export default function Index() {
             subheading="By simplifying the tipping process for customers, your staff can be confident in maximizing their chances of receiving tips,"
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
