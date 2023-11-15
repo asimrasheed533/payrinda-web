@@ -555,20 +555,22 @@ body {
   justify-content: flex-start;
   border-radius: 19px;
   margin: 0.5em 0em;
-  border: 1px solid #4342426c;
-  background-color: white;
+  background: rgba(46, 45, 45, 0.247);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 30, 30, 0.452) 0%,
+    rgba(255, 252, 248, 1) 100%
+  );
+  padding: 1px 0px 1px 1px;
 }
 .benefits__cards__wraper__card {
   padding: 1em;
   width: 100%;
-  // margin-right: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
   border-radius: 19px;
-
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.23);
+  background-color: white;
 }
 .benefits__cards__wraper__card__number {
   font-size: 55px;
@@ -590,7 +592,8 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1em;
-  margin: 4em 0em;
+  margin-top: 12em;
+  margin-bottom: 4em;
 }
 .about__main__wraper {
   width: 100%;
@@ -635,6 +638,110 @@ body {
   width: 100%;
   max-width: 600px;
 }
+.simplicity__main__ovrlay {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4em 0em;
+  background-image: url("../assets/simbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  flex-direction: column;
+}
+.simplicity__main__ovrlay__wrpaer {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0em 1em;
+  position: relative;
+}
+.simplicity__main__ovrlay__wrpaer :nth-child(3) {
+  margin-top: 14em;
+}
+.simplicity__main__col__sub__text {
+  line-height: 20px;
+}
+.simplicity__main__col {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.simplicity__main__col__text {
+  width: 100%;
+}
+.simplicity__main__col__text__heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+.simplicity__main__col__text__subheading {
+  font-size: 18px;
+  line-height: 22px;
+}
+.simplicity__main__col__image {
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+}
+.simplicity__cards__contrainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: -12em;
+  padding: 1em;
+}
+.simplicity__cards__overlay {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 245.534px;
+  background: #fff;
+  box-shadow: 0px 6px 36px 0px rgba(0, 0, 0, 0.14);
+  margin: 1em 0em;
+}
+.simplicity__cards__overlay__content {
+  border-radius: 245.534px;
+  border: 1px solid rgba(1, 43, 132, 0.5);
+  padding: 3em 2em;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.simplicity__cards__content__num {
+  opacity: 0.4;
+  font-weight: 900;
+  background: linear-gradient(180deg, #012b84 0%, rgba(1, 43, 132, 0) 95.83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 49px;
+}
+.simplicity__cards__content__heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+.simplicity__cards__content__sub__heading {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 2em;
+  text-align: center;
+}
 @media (max-width: 1250px) {
   .about__main__wraper__content__row {
     flex-direction: column-reverse;
@@ -659,6 +766,20 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .simplicity__main__ovrlay__wrpaer :nth-child(3) {
+    margin-top: 1em;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
+  .simplicity__main__ovrlay__wrpaer {
+    flex-direction: column;
+  }
+  .simplicity__main__col__image {
+    max-width: 400px;
+    object-fit: cover;
+    padding: 3em 0em;
+  }
   .benefits__contaniner__main {
     flex-direction: column;
   }
@@ -727,6 +848,12 @@ body {
 }
 
 @media (max-width: 600px) {
+  .simplicity__cards__content__heading {
+    font-size: 20px;
+  }
+  .simplicity__cards__content__sub__heading {
+    font-size: 14px;
+  }
   .footer__main__content__right__subheading {
     font-size: 16px;
   }

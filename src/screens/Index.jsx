@@ -10,6 +10,7 @@ import scanleft from "../assets/scanleft.png";
 import scanright from "../assets/scanright.png";
 import solution__img from "../assets/solution__img.png";
 import about from "../assets/about.png";
+import { PngQrmobile } from "@assets";
 export default function Index() {
   return (
     <>
@@ -530,6 +531,75 @@ export default function Index() {
             number="04"
             text="For service industry merchants, depending on how your payroll is structured, you might choose to transfer tips straight into employees' bank accounts or merge them."
           />
+        </div>
+      </div>
+      <div className="simplicity__main__ovrlay">
+        <div className="simplicity__main__ovrlay__wrpaer">
+          <div className="simplicity__main__col">
+            <div className="simplicity__main__col__text">
+              <div className="simplicity__main__col__text__heading">
+                Simplicity at its best
+              </div>
+              <div className="simplicity__main__col__text__subheading">
+                Our solutions allows customers to conveniently pay digital tips
+                at outlets where tips can’t be combined with the bill payment.
+              </div>
+            </div>
+          </div>
+          <div className="simplicity__main__col">
+            <img
+              className="simplicity__main__col__image"
+              src={PngQrmobile}
+              alt="image"
+            />
+          </div>
+          <div className="simplicity__main__col">
+            <div className="simplicity__main__col__sub__text">
+              Rewarding exemplary service should be as smooth as the experiences
+              they offer. With payrinda, it's just a scan away.
+            </div>
+          </div>
+        </div>
+        <div className="simplicity__cards__contrainer">
+          <div className="simplicity__cards__overlay">
+            <div className="simplicity__cards__overlay__content">
+              <div className="simplicity__cards__content__num">01</div>
+              <div className="simplicity__cards__content__heading">
+                Scan and Open
+              </div>
+              <div className="simplicity__cards__content__sub__heading">
+                Spot a payrinda QR code at the establishment? Just scan it. Our
+                user-friendly web interface will pop up right on your mobile
+                device. No app installations. No hassles.
+              </div>
+            </div>
+          </div>
+          <div className="simplicity__cards__overlay">
+            <div className="simplicity__cards__overlay__content">
+              <div className="simplicity__cards__content__num">01</div>
+              <div className="simplicity__cards__content__heading">
+                Scan and Open
+              </div>
+              <div className="simplicity__cards__content__sub__heading">
+                Spot a payrinda QR code at the establishment? Just scan it. Our
+                user-friendly web interface will pop up right on your mobile
+                device. No app installations. No hassles.
+              </div>
+            </div>
+          </div>
+          <div className="simplicity__cards__overlay">
+            <div className="simplicity__cards__overlay__content">
+              <div className="simplicity__cards__content__num">01</div>
+              <div className="simplicity__cards__content__heading">
+                Scan and Open
+              </div>
+              <div className="simplicity__cards__content__sub__heading">
+                Spot a payrinda QR code at the establishment? Just scan it. Our
+                user-friendly web interface will pop up right on your mobile
+                device. No app installations. No hassles.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="about__main__containe__overlay">
