@@ -72,7 +72,7 @@ export default function Index() {
             Bridging Possibilities, Simplifying Transactions
           </div>
         </div>
-        <Fade bottom>
+        <Fade bottom duration={2300}>
           <div className="welcome__main__container__img">
             <img src={main__img} alt="image" />
           </div>
@@ -162,9 +162,11 @@ export default function Index() {
       <div className="join__card__container__over">
         <div className="join__card__container">
           <div className="join__card__container__text__wraper">
-            <div className="join__card__container__text__heading">
-              Join the Payment Revolution
-            </div>
+            <Fade bottom>
+              <div className="join__card__container__text__heading">
+                Join the Payment Revolution
+              </div>
+            </Fade>
             <div className="join__card__container__text__overlay__heading">
               Ready to elevate your payment experience?{" "}
             </div>
@@ -181,7 +183,11 @@ export default function Index() {
       </div>
 
       <div className="solution__main__container">
-        <div className="solution__main__container__heading">Our Solutions</div>
+        <Fade bottom duration={2000}>
+          <div className="solution__main__container__heading">
+            Our Solutions
+          </div>
+        </Fade>
         <div className="solution__main__container__wraper">
           <div className="solution__main__wraper__col">
             <div className="solution__main__wraper__text">Digital Tipping </div>
@@ -221,17 +227,21 @@ export default function Index() {
             <img src={scanleft} alt="scan" />
           </div>
           <div className="scan__main__container__content">
-            <div className="scan__main__container__content__heading">
-              Our single easy-to-use platform, quickly creates the digital
-              tipping flows that work best for service industry employees.
-            </div>
-            <div className="scan__main__container__content__subheading">
-              We offer a simple digital tipping solution that fits right into
-              the evolving financial landscape. Compatible with every currency,
-              payrinda eliminates the need for physical cash, and even mobile
-              app downloads, ensuring that rewarding service excellence remains
-              effortless for customers.
-            </div>
+            <Fade bottom duration={1000}>
+              <div className="scan__main__container__content__heading">
+                Our single easy-to-use platform, quickly creates the digital
+                tipping flows that work best for service industry employees.
+              </div>
+            </Fade>
+            <Fade bottom duration={2000}>
+              <div className="scan__main__container__content__subheading">
+                We offer a simple digital tipping solution that fits right into
+                the evolving financial landscape. Compatible with every
+                currency, payrinda eliminates the need for physical cash, and
+                even mobile app downloads, ensuring that rewarding service
+                excellence remains effortless for customers.
+              </div>
+            </Fade>
           </div>
           <div className="scan__main__container__bg__img__right">
             <img src={scanright} alt="scan" />
@@ -524,27 +534,36 @@ export default function Index() {
       </div>
       <div className="about__main__containe__overlay">
         <div className="about__main__wraper">
-          <div className="about__main__wraper__heading">About Us</div>
+          <Fade bottom>
+            <div className="about__main__wraper__heading">About Us</div>
+          </Fade>
           <div className="about__main__wraper__content__row">
             {" "}
             <div className="about__main__wraper__content__col">
               <div className="about__main__wraper__content__col__text">
-                <span>payrinda</span> is an early stage, fintech and social
-                impact company based in Dubai, UAE. We strive to build products
-                that we believe will make the world a better place. <br />
-                <br />
-                At the heart of <span>payrinda</span> is a dedication to
-                innovation and a commitment to enhancing financial inclusivity
-                and social empowerment. Rooted in the vibrant energy of Dubai,
-                our vision extends far beyond borders, aiming to make a positive
-                difference on a global scale.
-                <br />
-                <br />
-                We are a lean team of professionals with expertise in payments,
-                finance, designers, UX/UI researchers, data analysts and
-                developers. We are supported by a knowledgeable network of
-                advisors and entrepreneurs in finance, fintech, legal,
-                hospitality, marketing, sales, technology and human resources.
+                <Fade left duration={1000}>
+                  <span>payrinda</span> is an early stage, fintech and social
+                  impact company based in Dubai, UAE. We strive to build
+                  products that we believe will make the world a better place.{" "}
+                  <br />
+                  <br />
+                </Fade>
+                <Fade left duration={1500}>
+                  At the heart of <span>payrinda</span> is a dedication to
+                  innovation and a commitment to enhancing financial inclusivity
+                  and social empowerment. Rooted in the vibrant energy of Dubai,
+                  our vision extends far beyond borders, aiming to make a
+                  positive difference on a global scale.
+                  <br />
+                  <br />
+                </Fade>
+                <Fade left duration={2000}>
+                  We are a lean team of professionals with expertise in
+                  payments, finance, designers, UX/UI researchers, data analysts
+                  and developers. We are supported by a knowledgeable network of
+                  advisors and entrepreneurs in finance, fintech, legal,
+                  hospitality, marketing, sales, technology and human resources.
+                </Fade>
               </div>
             </div>
             <div className="about__main__wraper__content__col">
