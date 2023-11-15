@@ -196,6 +196,7 @@ export default function Index() {
               about progressing with the times and ensuring that appreciation
               doesn't get lost in the digital shuffle.
             </div>
+            <div className="solution__content__btn">Enter Payrinda</div>
           </div>
           <div className="solution__main__wraper__col">
             <img
