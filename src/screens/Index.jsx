@@ -1,5 +1,6 @@
 import { AutomaticCard, MerchantsCard, BenefitCard } from "@components";
-
+import React from "react";
+import Fade from "react-reveal/Fade";
 import main__img from "../assets/main__img.png";
 import mer01 from "../assets/mer01.png";
 import mer02 from "../assets/mer02.png";
@@ -57,19 +58,25 @@ export default function Index() {
           </svg>
         </div>
         <div className="welcome__main__container__content">
-          <div className="welcome__main__container__content__title">
-            Welcome to payrinda!
-          </div>
-          <div className="welcome__main__container__content__heading">
-            Revolutionizing the Way You Experience <span>Payments</span>
-          </div>
+          <Fade bottom>
+            <div className="welcome__main__container__content__title">
+              Welcome to payrinda!
+            </div>
+          </Fade>
+          <Fade bottom>
+            <div className="welcome__main__container__content__heading">
+              Revolutionizing the Way You Experience <span>Payments</span>
+            </div>
+          </Fade>
           <div className="welcome__main__container__content__sub__heading">
             Bridging Possibilities, Simplifying Transactions
           </div>
         </div>
-        <div className="welcome__main__container__img">
-          <img src={main__img} alt="image" />
-        </div>
+        <Fade bottom>
+          <div className="welcome__main__container__img">
+            <img src={main__img} alt="image" />
+          </div>
+        </Fade>
         <div className="welcome__detail__sub__text__container__over">
           <div className="welcome__detail__sub__text__container">
             <div className="welcome__detail__cir"></div>
