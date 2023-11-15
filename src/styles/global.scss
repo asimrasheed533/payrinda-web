@@ -848,6 +848,12 @@ body {
 }
 
 @media (max-width: 600px) {
+  .simplicity__cards__overlay {
+    width: 290px;
+  }
+  .simplicity__cards__contrainer {
+    justify-content: center;
+  }
   .simplicity__cards__content__heading {
     font-size: 20px;
   }
