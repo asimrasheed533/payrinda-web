@@ -424,6 +424,20 @@ body {
   padding: 0.5em;
   margin-bottom: 1em;
 }
+.Automatic__card__container__col__text__upper {
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  color: #434242;
+  padding: 0.5em 3em;
+  display: none;
+  width: 100%;
+  // max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
 .scan__main__ovelay {
   width: 100%;
   display: flex;
@@ -829,6 +843,15 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .Automatic__card__container {
+    margin-top: 1em;
+  }
+  .Automatic__card__container__col__text {
+    display: none;
+  }
+  .Automatic__card__container__col__text__upper {
+    display: flex;
+  }
   .get__start__content__container__text__heading {
     font-size: 26px;
   }

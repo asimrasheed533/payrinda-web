@@ -249,6 +249,11 @@ export default function Index() {
           </div>
         </div>
       </div>
+      <div className="Automatic__card__container__col__text__upper">
+        Our solution doesn't just put money in service industry worker’s
+        pockets; it fosters engagement, boosts morale, and elevates customer
+        experiences.
+      </div>
       <div id="work" className="Automatic__card__container">
         <div className="Automatic__card__container__col">
           <AutomaticCard
