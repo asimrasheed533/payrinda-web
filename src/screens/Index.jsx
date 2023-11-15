@@ -8,6 +8,7 @@ import mer04 from "../assets/mer04.png";
 import scanleft from "../assets/scanleft.png";
 import scanright from "../assets/scanright.png";
 import solution__img from "../assets/solution__img.png";
+import about from "../assets/about.png";
 export default function Index() {
   return (
     <>
@@ -512,6 +513,41 @@ export default function Index() {
             number="04"
             text="For service industry merchants, depending on how your payroll is structured, you might choose to transfer tips straight into employees' bank accounts or merge them."
           />
+        </div>
+      </div>
+      <div className="about__main__containe__overlay">
+        <div className="about__main__wraper">
+          <div className="about__main__wraper__heading">About Us</div>
+          <div className="about__main__wraper__content__row">
+            {" "}
+            <div className="about__main__wraper__content__col">
+              <div className="about__main__wraper__content__col__text">
+                <span>payrinda</span> is an early stage, fintech and social
+                impact company based in Dubai, UAE. We strive to build products
+                that we believe will make the world a better place. <br />
+                <br />
+                At the heart of <span>payrinda</span> is a dedication to
+                innovation and a commitment to enhancing financial inclusivity
+                and social empowerment. Rooted in the vibrant energy of Dubai,
+                our vision extends far beyond borders, aiming to make a positive
+                difference on a global scale.
+                <br />
+                <br />
+                We are a lean team of professionals with expertise in payments,
+                finance, designers, UX/UI researchers, data analysts and
+                developers. We are supported by a knowledgeable network of
+                advisors and entrepreneurs in finance, fintech, legal,
+                hospitality, marketing, sales, technology and human resources.
+              </div>
+            </div>
+            <div className="about__main__wraper__content__col">
+              <img
+                className="about__main__wraper__content__col__image"
+                src={about}
+                alt="About"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
