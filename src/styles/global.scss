@@ -930,6 +930,10 @@ body {
 }
 
 @media (max-width: 600px) {
+  .Automatic__col__card__wraper {
+    padding: 1em;
+    max-width: 250px;
+  }
   .get__start__content__container__text__heading {
     font-size: 18px;
     text-align: center;
@@ -951,6 +955,9 @@ body {
   }
   .simplicity__cards__content__sub__heading {
     font-size: 14px;
+  }
+  .footer__main__content__right {
+    width: 100%;
   }
   .footer__main__content__right__subheading {
     font-size: 16px;
