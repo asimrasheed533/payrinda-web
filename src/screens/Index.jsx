@@ -540,31 +540,25 @@ export default function Index() {
           <div className="about__main__wraper__content__row">
             {" "}
             <div className="about__main__wraper__content__col">
-              <div className="about__main__wraper__content__col__text">
-                <Fade left duration={1000}>
+              <Fade left duration={2000}>
+                <div className="about__main__wraper__content__col__text">
                   <span>payrinda</span> is an early stage, fintech and social
                   impact company based in Dubai, UAE. We strive to build
                   products that we believe will make the world a better place.{" "}
                   <br />
                   <br />
-                </Fade>
-                <Fade left duration={1500}>
                   At the heart of <span>payrinda</span> is a dedication to
                   innovation and a commitment to enhancing financial inclusivity
                   and social empowerment. Rooted in the vibrant energy of Dubai,
                   our vision extends far beyond borders, aiming to make a
-                  positive difference on a global scale.
-                  <br />
-                  <br />
-                </Fade>
-                <Fade left duration={2000}>
-                  We are a lean team of professionals with expertise in
-                  payments, finance, designers, UX/UI researchers, data analysts
-                  and developers. We are supported by a knowledgeable network of
+                  positive difference on a global scale. <br /> <br /> We are a
+                  lean team of professionals with expertise in payments,
+                  finance, designers, UX/UI researchers, data analysts and
+                  developers. We are supported by a knowledgeable network of
                   advisors and entrepreneurs in finance, fintech, legal,
                   hospitality, marketing, sales, technology and human resources.
-                </Fade>
-              </div>
+                </div>
+              </Fade>
             </div>
             <div className="about__main__wraper__content__col">
               <img
