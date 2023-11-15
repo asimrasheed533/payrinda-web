@@ -112,15 +112,15 @@ $color: #012b84;
     flex-direction: column;
     position: absolute;
     margin-top: 20em;
-    background-color: #141414;
-    color: #6554dc;
+    background-color: #424242;
+    color: $color;
     border-radius: 10px;
     right: 10px;
     z-index: 9999;
   }
   .header__nav__container__menu__links {
     // margin: 1em 0;
-    color: #6554dc;
+    color: white;
     padding: 0.6em 4em;
     margin: 0.3em;
     transition: 300ms ease-in-out;
