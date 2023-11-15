@@ -5,6 +5,8 @@ import mer01 from "../assets/mer01.png";
 import mer02 from "../assets/mer02.png";
 import mer03 from "../assets/mer03.png";
 import mer04 from "../assets/mer04.png";
+import scanleft from "../assets/scanleft.png";
+import scanright from "../assets/scanright.png";
 import solution__img from "../assets/solution__img.png";
 export default function Index() {
   return (
@@ -204,7 +206,30 @@ export default function Index() {
           </div>
         </div>
       </div>
-      {/* <div className="Automatic__card__container">
+      <div className="scan__main__ovelay">
+        <div className="scan__main__container__bg">
+          <div className="scan__main__container__bg__img__left">
+            <img src={scanleft} alt="scan" />
+          </div>
+          <div className="scan__main__container__content">
+            <div className="scan__main__container__content__heading">
+              Our single easy-to-use platform, quickly creates the digital
+              tipping flows that work best for service industry employees.
+            </div>
+            <div className="scan__main__container__content__subheading">
+              We offer a simple digital tipping solution that fits right into
+              the evolving financial landscape. Compatible with every currency,
+              payrinda eliminates the need for physical cash, and even mobile
+              app downloads, ensuring that rewarding service excellence remains
+              effortless for customers.
+            </div>
+          </div>
+          <div className="scan__main__container__bg__img__right">
+            <img src={scanright} alt="scan" />
+          </div>
+        </div>
+      </div>
+      <div className="Automatic__card__container">
         <div className="Automatic__card__container__col">
           <AutomaticCard
             svg={
@@ -406,7 +431,7 @@ export default function Index() {
             subheading="By simplifying the tipping process for customers, your staff can be confident in maximizing their chances of receiving tips,"
           />
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

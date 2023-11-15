@@ -407,6 +407,63 @@ body {
   padding: 0.5em;
   margin-bottom: 1em;
 }
+.scan__main__ovelay {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.scan__main__container__bg {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 2em 3em;
+  border-radius: 39px;
+  border: 0.5px solid rgba(67, 66, 66, 0.103);
+  position: relative;
+
+  background: linear-gradient(
+    180deg,
+    rgba(1, 43, 132, 0) 0%,
+    rgba(1, 43, 132, 0.1) 100%
+  );
+}
+.scan__main__container__bg__img__left {
+  position: absolute;
+  top: -4em;
+  left: 0;
+}
+.scan__main__container__bg__img__right {
+  position: absolute;
+  bottom: -4em;
+  right: 1em;
+}
+.scan__main__container__bg__img__right img {
+  width: 120px;
+}
+.scan__main__container__bg__img__left img {
+  width: 120px;
+}
+.scan__main__container__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em 4em;
+}
+.scan__main__container__content__heading {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.scan__main__container__content__subheading {
+  font-size: 18px;
+  margin-top: 1em;
+  text-align: center;
+}
 @media (max-width: 1250px) {
   .Automatic__card__container {
     justify-content: space-between;
@@ -419,6 +476,18 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .scan__main__container__bg {
+    padding: 2em 1em;
+  }
+  .scan__main__container__content {
+    padding: 1em 0em;
+  }
+  .scan__main__container__content__heading {
+    font-size: 24px;
+  }
+  .scan__main__container__content__subheading {
+    font-size: 16px;
+  }
   .Automatic__card__container__col {
     min-width: 300px;
   }
@@ -456,6 +525,25 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .scan__main__container__content__heading {
+    font-size: 22px;
+  }
+  .scan__main__container__content__subheading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .scan__main__container__bg__img__left {
+    top: -3em;
+  }
+  .scan__main__container__bg__img__right {
+    bottom: -3em;
+  }
+  .scan__main__container__bg__img__left img {
+    width: 90px;
+  }
+  .scan__main__container__bg__img__right img {
+    width: 90px;
+  }
   .Automatic__card__container__col {
     width: 100%;
   }
