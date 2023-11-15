@@ -647,6 +647,23 @@ export default function Index() {
           </div>
         </div>
       </div>
+      <div className="get__start__over">
+        <div className="get__start__content__container">
+          <div className="get__start__content__container__text">
+            <div className="get__start__content__container__text__heading">
+              Merchant / Staff Onboarding Form{" "}
+            </div>
+            <div className="get__start__content__container__text__sub__heading">
+              Tipping Solution
+            </div>
+          </div>
+          <div className="get__start__content__container__btn">
+            <div className="get__start__content__container__btn__button">
+              Get Started
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

@@ -743,7 +743,68 @@ body {
   padding-bottom: 2em;
   text-align: center;
 }
+.get__start__content__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-image: url(../assets/getstart.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1366px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.get__start__over {
+  width: 100%;
+  padding: 1em;
+}
+.get__start__content__container__text {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2em 1em;
+}
+.get__start__content__container__text__heading {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 0em;
+}
+.get__start__content__container__text__sub__heading {
+  font-size: 30px;
+  color: $color;
+  font-weight: 800;
+}
+.get__start__content__container__btn {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.get__start__content__container__btn__button {
+  padding: 0.8em 1.6em;
+  background-color: $color;
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+  margin-top: 3em;
+  border: 1px solid $color;
+  margin-right: 4em;
+}
+.get__start__content__container__btn__button:hover {
+  background-color: #fff;
+  color: $color;
+  border: 1px solid $color;
+  transition: 300ms ease-in-out;
+}
 @media (max-width: 1250px) {
+  .get__start__content__container__text {
+    width: 100%;
+  }
   .about__main__wraper__content__row {
     flex-direction: column-reverse;
   }
@@ -767,6 +828,15 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .get__start__content__container__text__heading {
+    font-size: 26px;
+  }
+  .get__start__content__container__text__sub__heading {
+    font-size: 24px;
+  }
+  .get__start__content__container__btn__button {
+    margin-right: 0em;
+  }
   .simplicity__main__ovrlay__wrpaer :nth-child(3) {
     margin-top: 1em;
     width: 100%;
@@ -833,6 +903,16 @@ body {
   }
 }
 @media (max-width: 800px) {
+  .get__start__content__container {
+    flex-direction: column;
+  }
+  .get__start__content__container__btn {
+    align-items: center;
+    justify-content: center;
+  }
+  .get__start__content__container__text {
+    align-items: center;
+  }
   .benefits__contaniner__main__right {
     width: 100%;
   }
@@ -849,8 +929,18 @@ body {
 }
 
 @media (max-width: 600px) {
+  .get__start__content__container__text__heading {
+    font-size: 18px;
+    text-align: center;
+  }
+  .get__start__content__container__btn__button {
+    margin-top: 1em;
+  }
   .simplicity__cards__overlay {
     width: 290px;
+  }
+  .get__start__content__container__text__sub__heading {
+    font-size: 26px;
   }
   .simplicity__cards__contrainer {
     justify-content: center;
