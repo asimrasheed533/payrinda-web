@@ -1,14 +1,14 @@
 import React from "react";
-
+import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 export default function MerchantsCard({ heading, subheading, image }) {
   return (
     <div className="Merchants__card__wraper">
       <div className="Merchants__card__wraper__col">
-        <Fade left duration={1000}>
+        <Zoom duration={1000}>
           <div className="Merchants__card__wraper__col__heading">{heading}</div>
-        </Fade>
-        <Fade left duration={2000}>
+        </Zoom>
+        <Fade duration={2000}>
           <div className="Merchants__card__wraper__col__subheading">
             {subheading}
           </div>
