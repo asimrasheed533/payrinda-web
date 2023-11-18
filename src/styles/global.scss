@@ -332,10 +332,8 @@ body {
   margin: 0.4em 0em;
 }
 .solution__content__btn {
-  border-radius: 59px;
-  border: 2px solid $color;
-  color: white;
-  padding: 0.5em 2em;
+  color: $color;
+  font-weight: 600;
   margin: 1em 0em;
   transition: 300ms ease-in-out;
   cursor: pointer;
@@ -953,6 +951,7 @@ body {
   }
   .benefits__contaniner__main__left {
     width: 100%;
+    margin-bottom: 0.4em;
   }
 }
 
