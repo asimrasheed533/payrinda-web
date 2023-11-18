@@ -102,14 +102,32 @@ export default function Header() {
                 >
                   About us
                 </Link>
-                <Link className=" header__nav__container__menu__links__btn__mobile">
+                <Link
+                  onClick={() => {
+                    setTimeout(() => {
+                      document
+                        .getElementById("footer")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }, 300);
+                  }}
+                  className=" header__nav__container__menu__links__btn__mobile"
+                >
                   Contact Us
                 </Link>
               </div>
             ) : null}
-            <NavLink className="header__nav__container__menu__links__btn">
+            <Link
+              onClick={() => {
+                setTimeout(() => {
+                  document
+                    .getElementById("footer")
+                    .scrollIntoView({ behavior: "smooth" });
+                }, 300);
+              }}
+              className="header__nav__container__menu__links__btn"
+            >
               Contact Us
-            </NavLink>
+            </Link>
 
             <button
               className="header__content__menu"
