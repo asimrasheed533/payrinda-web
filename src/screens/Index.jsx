@@ -168,15 +168,15 @@ export default function Index() {
                 Join the Payment Revolution
               </div>
             </Fade>
-            <div className="join__card__container__text__overlay__heading">
-              Ready to elevate your payment experience?{" "}
-            </div>
+            {/* <div className="join__card__container__text__overlay__heading">
+              Ready to elevate your payment experience?
+            </div> */}
             <div className="join__card__container__text__subheading">
-              Ready To Get Started with ?
+              Ready to elevate your payment experience?
             </div>
             <div className="join__container__btn">
               <button className="join__container__btn__button">
-                Let's Talk
+                Ready To Get Started with ?
               </button>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default function Index() {
         pockets; it fosters engagement, boosts morale, and elevates customer
         experiences.
       </div>
-      <div id="work" className="Automatic__card__container">
+      <div className="Automatic__card__container">
         <div className="Automatic__card__container__col">
           <AutomaticCard
             svg={
@@ -534,11 +534,14 @@ export default function Index() {
           />
           <BenefitCard
             number="04"
-            text="For service industry merchants, depending on how your payroll is structured, you might choose to transfer tips straight into employees' bank accounts or merge them."
+            text="For service industry merchants, depending on how your payroll is structured, you might choose to transfer tips straight into employees' bank accounts or merge them with their usual salaries via your payroll mechanism. Whichever approach you take, the digital tipping system streamlines the disbursement procedure and allows you to keep track of your staff tips earnings."
           />
         </div>
       </div>
-      <div className="simplicity__main__ovrlay">
+      <div id="work" className="simplicity__main__ovrlay">
+        <div className="simplicity__main__ovrlay__wrpaer__upper">
+          How it Work
+        </div>
         <div className="simplicity__main__ovrlay__wrpaer">
           <div className="simplicity__main__col">
             <div className="simplicity__main__col__text">

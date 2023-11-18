@@ -92,16 +92,18 @@
   color: rgba(255, 255, 255, 0.61);
 }
 .button__send {
-  border-radius: 8px;
-  background: #012b84;
-  color: white;
+  border-radius: 20px;
+  background-color: white;
+  color: #012b84;
   padding: 0.4em 2em;
   cursor: pointer;
+  border: 1px solid #012b84;
   transition: 300ms ease-in-out;
 }
 .button__send:hover {
-  background: #fff;
-  color: #012b84;
+  background-color: #012b84;
+  color: white;
+  border: 1px solid #ffffff;
   transition: 300ms ease-in-out;
 }
 .footer__main__content__right {
