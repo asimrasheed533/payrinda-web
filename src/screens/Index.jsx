@@ -228,21 +228,20 @@ export default function Index() {
             <img src={scanleft} alt="scan" />
           </div>
           <div className="scan__main__container__content">
-            <Fade bottom duration={1000}>
+            <Fade duration={2000}>
               <div className="scan__main__container__content__heading">
                 Our single easy-to-use platform, quickly creates the digital
                 tipping flows that work best for service industry employees.
               </div>
             </Fade>
-            <Fade bottom duration={2000}>
-              <div className="scan__main__container__content__subheading">
-                We offer a simple digital tipping solution that fits right into
-                the evolving financial landscape. Compatible with every
-                currency, payrinda eliminates the need for physical cash, and
-                even mobile app downloads, ensuring that rewarding service
-                excellence remains effortless for customers.
-              </div>
-            </Fade>
+
+            <div className="scan__main__container__content__subheading">
+              We offer a simple digital tipping solution that fits right into
+              the evolving financial landscape. Compatible with every currency,
+              payrinda eliminates the need for physical cash, and even mobile
+              app downloads, ensuring that rewarding service excellence remains
+              effortless for customers.
+            </div>
           </div>
           <div className="scan__main__container__bg__img__right">
             <img src={scanright} alt="scan" />
