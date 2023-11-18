@@ -652,7 +652,7 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div className="get__start__over">
+      <div id="footer" className="get__start__over">
         <div className="get__start__content__container">
           <div className="get__start__content__container__text">
             <div className="get__start__content__container__text__heading">
