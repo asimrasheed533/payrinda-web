@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 $color: #012b84;
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .welcome__main__container {
   display: flex;
@@ -911,7 +911,7 @@ body {
     margin-top: 1em;
   }
   .solution__main__container__heading {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     padding-bottom: 1em;
   }
@@ -953,6 +953,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  .auto__under__text {
+    text-align: center;
+  }
   .Automatic__col__card__wraper {
     padding: 1em;
     max-width: 250px;
@@ -1004,7 +1007,7 @@ body {
     margin-bottom: 0.4em;
   }
   .scan__main__container__content__heading {
-    font-size: 22px;
+    font-size: 24px;
   }
   .scan__main__container__content__subheading {
     font-size: 14px;
@@ -1033,7 +1036,7 @@ body {
     max-width: 170px;
   }
   .solution__main__wraper__text {
-    font-size: 22px;
+    font-size: 24px;
   }
   .solution__main__wraper__subtext {
     font-size: 22px;
