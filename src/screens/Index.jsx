@@ -176,7 +176,7 @@ export default function Index() {
             </div>
             <div className="join__container__btn">
               <button className="join__container__btn__button">
-                Ready To Get Started with ?
+                Get Started with payrinda
               </button>
             </div>
           </div>
