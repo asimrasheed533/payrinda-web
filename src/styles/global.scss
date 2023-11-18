@@ -247,7 +247,6 @@ body {
   font-size: 38px;
   font-weight: 800;
   color: $color;
-  margin-top: 1em;
   text-align: center;
   color: white;
   width: 100%;
@@ -267,7 +266,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
+  margin: 2.5em 0em;
 }
 .join__container__btn__button {
   width: 260px;
@@ -338,15 +337,14 @@ body {
   color: white;
   padding: 0.5em 2em;
   margin: 1em 0em;
-  background: $color;
   transition: 300ms ease-in-out;
   cursor: pointer;
 }
-.solution__content__btn:hover {
-  background: white;
-  color: $color;
-  transition: 300ms ease-in-out;
-}
+// .solution__content__btn:hover {
+//   background: white;
+//   color: $color;
+//   transition: 300ms ease-in-out;
+// }
 .solution__main__wraper__detail {
   font-size: 16px;
   line-height: 20px;
@@ -769,7 +767,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em;
+  padding: 2em;
   background-image: url(../assets/getstart.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -786,7 +784,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  padding: 2em 1em;
+  padding: 0em 1em;
 }
 .get__start__content__container__text__heading {
   font-size: 32px;
@@ -959,6 +957,23 @@ body {
 }
 
 @media (max-width: 600px) {
+  .simplicity__main__col__text__subheading {
+    font-size: 16px;
+  }
+  .simplicity__main__ovrlay__wrpaer__upper {
+    margin-bottom: 0.5em;
+  }
+  .benefits__cards__wraper__card__over {
+    padding: 1px;
+    background: linear-gradient(
+      0deg,
+      rgba(31, 30, 30, 0.452) 0%,
+      rgb(0, 0, 0) 100%
+    );
+  }
+  .simplicity__main__col__text {
+    text-align: center;
+  }
   .auto__under__text {
     text-align: center;
   }
@@ -967,11 +982,12 @@ body {
     max-width: 250px;
   }
   .get__start__content__container__text__heading {
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
   }
   .get__start__content__container__btn__button {
     margin-top: 1em;
+    padding: 0.4em 1em;
   }
   .simplicity__cards__overlay {
     width: 290px;
