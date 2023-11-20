@@ -35,9 +35,9 @@ $color: #012b84;
   align-items: center;
   justify-content: space-between;
   z-index: 9999;
-  animation: dropdown__list__nav__animation 500ms both;
-  transform-origin: top;
-  margin-top: 20em;
+  // animation: dropdown__list__nav__animation 500ms both;
+  // transform-origin: top;
+  // margin-top: 20em;
 }
 @keyframes dropdown__list__nav__animation {
   from {
@@ -144,6 +144,7 @@ $color: #012b84;
     border-radius: 10px;
     right: 10px;
     z-index: 9999;
+    margin-top: 21em;
   }
   .header__nav__container__menu__links {
     // margin: 1em 0;
