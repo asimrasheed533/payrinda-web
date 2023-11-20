@@ -320,6 +320,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  padding: 1em;
 }
 .solution__main__wraper__text {
   font-size: 30px;
@@ -333,7 +334,8 @@ body {
 }
 .solution__content__btn {
   color: $color;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 17px;
   margin: 1em 0em;
   transition: 300ms ease-in-out;
   cursor: pointer;
@@ -678,6 +680,7 @@ body {
   font-weight: bolder;
   color: black;
   margin-bottom: 1.5em;
+  color: $color;
 }
 .simplicity__main__ovrlay__wrpaer :nth-child(3) {
   margin-top: 14em;
@@ -722,7 +725,8 @@ body {
 }
 .simplicity__cards__overlay {
   width: 100%;
-  max-width: 320px;
+  max-width: 340px;
+  min-height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -740,6 +744,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  min-height: 450px;
 }
 .simplicity__cards__content__num {
   opacity: 0.4;
@@ -748,12 +753,12 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 49px;
+  font-size: 60px;
 }
 .simplicity__cards__content__heading {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 0.4em;
+  text-align: center;
 }
 .simplicity__cards__content__sub__heading {
   font-size: 16px;
