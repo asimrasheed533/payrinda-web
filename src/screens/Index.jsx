@@ -508,7 +508,7 @@ export default function Index() {
         </div>
         <div className="benefits__contaniner__main">
           <div className="benefits__contaniner__main__left">
-            Benefits of <span>payrinda’s</span> Digital <span>tipping</span>{" "}
+            Benefits of <span>payrinda’s</span> Digital <span>Tipping</span>{" "}
             Solution
           </div>
           <div className="benefits__contaniner__main__right">
