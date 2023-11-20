@@ -508,7 +508,7 @@ export default function Index() {
         </div>
         <div className="benefits__contaniner__main">
           <div className="benefits__contaniner__main__left">
-            Benefits of <span>Payrinda’s</span> Digital <span>Tipping</span>{" "}
+            Benefits of <span>payrinda’s</span> Digital <span>tipping</span>{" "}
             Solution
           </div>
           <div className="benefits__contaniner__main__right">
@@ -604,12 +604,12 @@ export default function Index() {
               <div className="simplicity__cards__overlay__content">
                 <div className="simplicity__cards__content__num">03</div>
                 <div className="simplicity__cards__content__heading">
-                  Secure Transactions
+                  Efficient and Transparent Transactions{" "}
                 </div>
                 <div className="simplicity__cards__content__sub__heading">
-                  With payrinda, your digital tips go directly to the staff bank
-                  account, ensuring transparency and trust. The staff can check
-                  their total tip earnings through the dashboard.
+                  Tips go directly to the staff’s bank account, ensuring
+                  transparency and trust. You can also manage bill
+                  payments seamlessly.
                 </div>
               </div>
             </div>
