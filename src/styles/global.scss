@@ -30,12 +30,12 @@ body {
 }
 .welcome__main__container__overlay__bg svg {
   background-color: rgba(1, 43, 132, 0.17);
-  height: 300px;
-  width: 300px;
-  border-radius: 120px;
+  height: 400px;
+  width: 400px;
+  border-radius: 180px;
   position: absolute;
-  top: -2em;
-  left: 0;
+  top: -10em;
+  left: -13em;
   z-index: -1;
   opacity: 0.2;
   // animation: rotate 10s linear infinite;
@@ -48,13 +48,13 @@ body {
 }
 .welcome__main__container__overlay__bottom svg {
   background-color: rgba(1, 43, 132, 0.17);
-  height: 300px;
-  width: 300px;
-  border-radius: 120px;
+  height: 400px;
+  width: 400px;
+  border-radius: 220px;
   position: absolute;
   bottom: 0;
-  right: 0;
-  z-index: -1;
+  right: 0em;
+  z-index: -0.5;
   opacity: 0.2;
   // animation: rotate 10s linear infinite;
   // background shadow
@@ -484,7 +484,7 @@ body {
   padding: 1em 4em;
 }
 .scan__main__container__content__heading {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
 }
@@ -676,8 +676,8 @@ body {
   position: relative;
 }
 .simplicity__main__ovrlay__wrpaer__upper {
-  font-size: 32px;
-  font-weight: bolder;
+  font-size: 38px;
+  font-weight: 800;
   color: black;
   margin-bottom: 1.5em;
   color: $color;
@@ -781,7 +781,7 @@ body {
 }
 .get__start__over {
   width: 100%;
-  padding: 1em;
+  padding: 4em 1em;
 }
 .get__start__content__container__text {
   width: 50%;
@@ -935,6 +935,9 @@ body {
   }
 }
 @media (max-width: 800px) {
+  .simplicity__main__ovrlay__wrpaer__upper {
+    font-size: 30px;
+  }
   .get__start__content__container {
     flex-direction: column;
   }
@@ -965,6 +968,7 @@ body {
   .simplicity__main__col__text__subheading {
     font-size: 16px;
   }
+
   .simplicity__main__ovrlay__wrpaer__upper {
     margin-bottom: 0.5em;
   }
@@ -1122,5 +1126,8 @@ body {
   }
   .about__main__wraper__heading {
     margin-bottom: 1em;
+  }
+  .welcome__main__container {
+    margin-top: 9em;
   }
 }

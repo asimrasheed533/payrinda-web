@@ -8,9 +8,9 @@ import mer03 from "../assets/mer03.png";
 import mer04 from "../assets/mer04.png";
 import scanleft from "../assets/scanleft.png";
 import scanright from "../assets/scanright.png";
+import qrqmobile from "../assets/qrqmobile.png";
 import solution__img from "../assets/solution__img.png";
 import about from "../assets/about.png";
-import { PngQrmobile } from "@assets";
 export default function Index() {
   return (
     <>
@@ -539,7 +539,7 @@ export default function Index() {
       </div>
       <div id="work" className="simplicity__main__ovrlay">
         <div className="simplicity__main__ovrlay__wrpaer__upper">
-          How it Work
+          How it Works
         </div>
         <div className="simplicity__main__ovrlay__wrpaer">
           <div className="simplicity__main__col">
@@ -556,7 +556,7 @@ export default function Index() {
           <div className="simplicity__main__col">
             <img
               className="simplicity__main__col__image"
-              src={PngQrmobile}
+              src={qrqmobile}
               alt="image"
             />
           </div>
