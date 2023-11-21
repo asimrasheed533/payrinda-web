@@ -588,13 +588,13 @@ export default function Index() {
               <div className="simplicity__cards__overlay__content">
                 <div className="simplicity__cards__content__num">02</div>
                 <div className="simplicity__cards__content__heading">
-                  Choose and Tip
+                  Choose to Tip / Pay Bill
                 </div>
                 <div className="simplicity__cards__content__sub__heading">
-                  Browse through the staff list to pick the staff and decide on
-                  the amount you wish to tip. Whether it's a heartfelt thank you
-                  for exceptional service or a gesture of appreciation, every
-                  bit counts.
+                  Make your bill payment or browse through the staff list to
+                  pick the staff and decide on the amount you wish to tip.
+                  Whether it's a heartfelt thank you for exceptional service or
+                  a gesture of appreciation, every bit counts.
                 </div>
               </div>
             </div>
