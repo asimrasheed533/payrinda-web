@@ -73,7 +73,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #012b84;
-  margin-bottom: 0.5em;
+  margin: 2em 0em;
 }
 .welcome__main__container__content__heading {
   font-size: 45px;
@@ -178,39 +178,43 @@ body {
 .Merchants__card__wraper {
   width: 50%;
   min-width: 600px;
+  min-height: 330px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   background: #fefeff;
   margin: 1em 0em;
+  padding: 1em;
   box-shadow: 0px 13px 21px 0px rgba(0, 0, 0, 0.12);
 }
-
+.Merchants__card__wraper__col:nth-child(odd) {
+  align-items: flex-start;
+}
 .Merchants__card__wraper__col {
   flex: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
   // padding: 0em 2em;
+  align-items: flex-end;
   padding-left: 2em;
 }
 .Merchants__card__wraper__col__heading {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 800;
   color: $color;
   padding-top: 1em;
   margin-bottom: 0.5em;
-  text-align: left;
 }
 .Merchants__card__wraper__col__subheading {
   font-size: 16px;
   margin-bottom: 0.5em;
-  text-align: left;
+
   line-height: 22px;
 }
 .Merchants__card__wraper__col__img {
   width: 100%;
-  max-width: 300px;
+  max-width: 230px;
   object-fit: cover;
   object-position: right;
 }
@@ -229,9 +233,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-
   border-radius: 12px;
-  margin-top: 3em;
+  margin-top: 4em;
   margin-bottom: 3em;
 }
 .join__card__container__text__wraper {
@@ -302,8 +305,7 @@ body {
   font-size: 38px;
   font-weight: 800;
   color: $color;
-  margin-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 .solution__main__container__wraper {
   width: 100%;
@@ -330,7 +332,6 @@ body {
 .solution__main__wraper__subtext {
   font-size: 30px;
   font-weight: bold;
-  margin: 0.4em 0em;
 }
 .solution__content__btn {
   color: $color;
@@ -348,8 +349,9 @@ body {
 .solution__main__wraper__detail {
   font-size: 16px;
   line-height: 20px;
-  text-align: justify;
+  text-align: left;
   padding-right: 1em;
+  margin-top: 0.5em;
 }
 .solution__main__wraper__col__img {
   width: 100%;
@@ -442,7 +444,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1em;
-  margin-top: 3em;
+  margin-top: 4em;
   margin-bottom: 3em;
 }
 .scan__main__container__bg {
@@ -679,7 +681,7 @@ body {
   font-size: 38px;
   font-weight: 800;
   color: black;
-  margin-bottom: 1.5em;
+  margin: 1em 0;
   color: $color;
 }
 .simplicity__main__ovrlay__wrpaer :nth-child(3) {
@@ -779,6 +781,7 @@ body {
   max-width: 1366px;
   margin: 0 auto;
   border-radius: 30px;
+  margin-bottom: 2em;
 }
 .get__start__over {
   width: 100%;
@@ -826,6 +829,18 @@ body {
   transition: 300ms ease-in-out;
 }
 @media (max-width: 1250px) {
+  .Merchants__card__wraper {
+    width: 70%;
+  }
+  .Merchants__card__wraper__col__img {
+    width: 100%;
+  }
+  .Merchants__card__wraper__col {
+    padding-left: 0em;
+  }
+  .Merchants__card__wraper {
+    height: 100%;
+  }
   .get__start__content__container__text {
     width: 100%;
   }
