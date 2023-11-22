@@ -94,7 +94,7 @@ export default function Footer() {
                   Contact Us:
                 </div>
                 <a
-                  href="#"
+                  href="mailto:innovate@payrinda.io"
                   className="footer__main__content__right__subheading"
                 >
                   hello@payrinda.io
@@ -106,7 +106,7 @@ export default function Footer() {
                   Careers:
                 </div>
                 <a
-                  href="#"
+                  href="mailto:innovate@payrinda.io"
                   className="footer__main__content__right__subheading"
                 >
                   innovate@payrinda.io
