@@ -70,7 +70,7 @@ body {
   z-index: -1;
 }
 .welcome__main__container__content__title {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 700;
   color: #012b84;
   margin: 2em 0em;
@@ -660,7 +660,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4em 0em;
+  margin: 5em 0em;
   background-image: url("../assets/simbg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -681,7 +681,7 @@ body {
   font-size: 38px;
   font-weight: 800;
   color: black;
-  margin: 1em 0;
+  margin-bottom: 2em;
   color: $color;
 }
 .simplicity__main__ovrlay__wrpaer :nth-child(3) {
@@ -951,6 +951,12 @@ body {
   }
 }
 @media (max-width: 800px) {
+  .about__main__wraper__content__col__text {
+    padding-right: 0em;
+  }
+  .get__start__over {
+    padding: 2em;
+  }
   .simplicity__main__ovrlay__wrpaer__upper {
     font-size: 30px;
   }
@@ -981,6 +987,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  .about__main__containe__overlay {
+    margin-bottom: 0em;
+  }
   .simplicity__main__col__text__subheading {
     font-size: 16px;
   }
@@ -1030,9 +1039,7 @@ body {
   .footer__main__content__right__subheading {
     font-size: 16px;
   }
-  .about__main__wraper__content__col__text {
-    padding-right: 0em;
-  }
+
   .about__main__wraper__heading {
     font-size: 30px;
   }
