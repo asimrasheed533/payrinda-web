@@ -60,11 +60,6 @@ export default function Index() {
         </div>
         <div className="welcome__main__container__content">
           <Fade bottom>
-            <div className="welcome__main__container__content__title">
-              Welcome to payrinda!
-            </div>
-          </Fade>
-          <Fade bottom>
             <div className="welcome__main__container__content__heading">
               Revolutionizing the Way You Experience <span>Payments</span>
             </div>
@@ -76,6 +71,11 @@ export default function Index() {
         <Fade bottom duration={2300}>
           <div className="welcome__main__container__img">
             <img src={main__img} alt="image" />
+          </div>
+        </Fade>
+        <Fade bottom>
+          <div className="welcome__main__container__content__title">
+            Welcome to payrinda!
           </div>
         </Fade>
         <div className="welcome__detail__sub__text__container__over">
@@ -211,7 +211,7 @@ export default function Index() {
               about progressing with the times and ensuring that appreciation
               doesn't get lost in the digital shuffle.
             </div>
-            <div className="solution__content__btn">Enter Payrinda</div>
+            <div className="solution__content__btn">Enter payrinda</div>
           </div>
           <div className="solution__main__wraper__col">
             <img
@@ -431,7 +431,7 @@ export default function Index() {
             heading="No Mobile App
             Required"
             subheading="Customers don,t need to download yet another app in their phone.
-            Payrinda solution opens directly
+            payrinda solution opens directly
             in their phone browser"
           />
           <AutomaticCard
@@ -521,18 +521,14 @@ export default function Index() {
         <div className="benefits__cards__container__wrparper">
           <BenefitCard
             number="01"
-            text="Enhances employee motivation and engagement."
+            text="Enhances employee motivation and engagement. Employees want equitable compensation, and with fewer guests carrying cash these days, there's been a noticeable decline in tip earnings. By offering guests an option for cashless gratuities, staff are further encouraged to deliver outstanding service, recognizing the potential rewards for their efforts."
           />
           <BenefitCard
             number="02"
-            text="Employees want equitable compensation, and with fewer guests carrying cash these days, there's been a noticeable decline in tip earnings. By offering guests an option for cashless gratuities, staff are further encouraged to deliver outstanding service, recognizing the potential rewards for their efforts."
-          />
-          <BenefitCard
-            number="03"
             text="Guests often skip tipping service industry staff not due to unsatisfactory service, but because they lack cash. Our digital tipping platform provides guests the opportunity to express their gratitude to service staff using diverse digital payment methods, such as ApplePay and Google Pay."
           />
           <BenefitCard
-            number="04"
+            number="03"
             text="For service industry merchants, depending on how your payroll is structured, you might choose to transfer tips straight into employees' bank accounts or merge them with their usual salaries via your payroll mechanism. Whichever approach you take, the digital tipping system streamlines the disbursement procedure and allows you to keep track of your staff tips earnings."
           />
         </div>
