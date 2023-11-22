@@ -73,7 +73,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   color: #012b84;
-  margin: 2em 0em;
+  margin-bottom: 2em;
 }
 .welcome__main__container__content__heading {
   font-size: 45px;
@@ -951,6 +951,9 @@ body {
   }
 }
 @media (max-width: 800px) {
+  .simplicity__main__ovrlay {
+    margin: 2em 0em;
+  }
   .about__main__wraper__content__col__text {
     padding-right: 0em;
   }
@@ -966,6 +969,7 @@ body {
   .get__start__content__container__btn {
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
   .get__start__content__container__text {
     align-items: center;
@@ -987,6 +991,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  .Merchants__card__continer {
+    margin-top: 2em;
+  }
   .about__main__containe__overlay {
     margin-bottom: 0em;
   }
@@ -1152,5 +1159,14 @@ body {
   }
   .welcome__main__container {
     margin-top: 9em;
+  }
+}
+@media (max-width: 450px) {
+  .get__start__content__container__text__sub__heading {
+    font-size: 20px;
+  }
+  .get__start__content__container__text {
+    padding: 0em;
+    margin-top: 0.5em;
   }
 }
