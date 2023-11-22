@@ -93,18 +93,24 @@ export default function Footer() {
                 <div className="footer__main__content__right__heading">
                   Contact Us:
                 </div>
-                <div className="footer__main__content__right__subheading">
+                <a
+                  href="#"
+                  className="footer__main__content__right__subheading"
+                >
                   hello@payrinda.io
-                </div>
+                </a>
               </div>
 
               <div className="footer__main__content__right">
                 <div className="footer__main__content__right__heading">
                   Careers:
                 </div>
-                <div className="footer__main__content__right__subheading">
+                <a
+                  href="#"
+                  className="footer__main__content__right__subheading"
+                >
                   innovate@payrinda.io
-                </div>
+                </a>
               </div>
             </div>
           </div>
