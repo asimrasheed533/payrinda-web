@@ -1,3 +1,5 @@
+// useCallBack, useRef, useEffect, useState
+// gererate password
 import React, { useState, useCallback, useEffect, useRef } from "react";
 
 export default function test() {
@@ -26,9 +28,9 @@ export default function test() {
   //   window.navigator.clipboard.writeText(password);
   // }, [password]);
 
-  useEffect(() => {
-    passwordGenerator();
-  }, [length, chaAllowed, numAllowed]);
+  // useEffect(() => {
+  //   passwordGenerator();
+  // }, [length, chaAllowed, numAllowed]);
 
   return (
     <>
@@ -50,9 +52,12 @@ export default function test() {
               />
               <button
                 // onClick={copyPasswordToClipboard}
+                onClick={() => {
+                  passwordGenerator();
+                }}
                 className="pas__genrater__wraper__input__btn"
               >
-                copy
+                Generate
               </button>
             </div>
             <div className="pas__genrater__wraper__input__sub__wraper">
