@@ -1,0 +1,63 @@
+.pas__genrater__main__container {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 20px;
+}
+.pas__genrater__wraper__over {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+.pas__genrater__wraper {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 244, 244);
+  flex-direction: column;
+  border-radius: 12px;
+}
+.pas__genrater__wraper__heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5em 0;
+}
+.pas__genrater__wraper__input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   flex-direction: column;
+  padding: 1em 2em;
+}
+.pas__genrater__wraper__input input {
+  width: 100%;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+}
+.pas__genrater__wraper__input__btn {
+  background-color: rgb(89, 91, 240);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.pas__genrater__wraper__input__range input {
+  cursor: pointer;
+  color: black;
+}
+.pas__genrater__wraper__input__sub__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+}
