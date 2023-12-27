@@ -96,6 +96,9 @@ export default function test() {
             </div>
           </div>
         </div>
+        <div className="according__container">
+          <div className="according__container__heading">Seach in box</div>
+        </div>
       </div>
     </>
   );
