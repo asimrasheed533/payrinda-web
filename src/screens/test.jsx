@@ -3,6 +3,21 @@
 import React, { useState, useCallback, useEffect, useRef } from "react";
 
 export default function test() {
+  // console.log("start");
+  // setTimeout(() => {
+  //   console.log(setTimeout);
+  // }, 0);
+  // console.log("end");
+  // -------------------------------------
+  // for (var i = 0; i <= 3; i++) {
+  //   function close(i) {
+  //     setTimeout(function () {
+  //       console.log(i);
+  //     }, 1000);
+  //   }
+  //   close(i);
+  // }
+  // -------------------------------------
   const [length, setLength] = useState(8);
   const [chaAllowed, setChaAllowed] = useState(false);
   const [numAllowed, setNumAllowed] = useState(false);
@@ -22,15 +37,6 @@ export default function test() {
     }
     setPassword(pass);
   }, [length, chaAllowed, numAllowed]);
-
-  // const copyPasswordToClipboard = useCallback(() => {
-  //   passwordRef.current.select();
-  //   window.navigator.clipboard.writeText(password);
-  // }, [password]);
-
-  // useEffect(() => {
-  //   passwordGenerator();
-  // }, [length, chaAllowed, numAllowed]);
 
   return (
     <>
